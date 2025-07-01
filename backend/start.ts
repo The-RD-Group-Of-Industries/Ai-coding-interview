@@ -1,3 +1,0 @@
-/*
-INIT YOUR PROJECT - IN YOUR WAY.
-*/
