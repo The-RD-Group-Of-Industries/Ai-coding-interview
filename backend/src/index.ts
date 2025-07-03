@@ -6,6 +6,7 @@ import adminRoutes from "./routes/userRoutes";
 import interviewRoutes from "./routes/admin.interviewRoute";
 import userRoutes from "./routes/user.interviewRoutes";
 import path from "path";
+import cors from "cors";
 dotenv.config({ path: path.resolve(__dirname, "../.env") });
 
 const app = express();
@@ -16,6 +17,12 @@ app.use(express.json());
 app.get("/", (_req, res) => {
   res.send("API is running");
 });
+app.use(
+  cors({
+    origin: `http://localhost:${PORT}`,
+    credentials: true,
+  })
+);
 
 //routes
 app.use("/auth", authRoutes);
