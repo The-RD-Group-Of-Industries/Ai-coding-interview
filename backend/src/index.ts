@@ -19,7 +19,7 @@ app.get("/", (_req, res) => {
 });
 app.use(
   cors({
-    origin: `http://localhost:${PORT}`,
+    origin: `*`,
     credentials: true,
   })
 );
