@@ -1,0 +1,168 @@
+/* .signup-bg {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+
+} */
+
+/* .signup-card {
+
+  background: rgba(47, 47, 54, 0.95);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding: 32px 28px 20px 28px;
+  width: 350px;
+  color: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+} */
+
+.signup-tabs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.signup-tabs button {
+  background: none;
+  border: none;
+  color: #aaa;
+  font-size: 16px;
+  padding: 6px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.signup-tabs .active {
+  background: #2d2d3a;
+  color: #fff;
+}
+
+.signup-tabs .close-btn {
+  margin-left: auto;
+  font-size: 22px;
+  color: #aaa;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.signup-row {
+  display: flex;
+  gap: 10px;
+}
+
+.half {
+  width: 50%;
+}
+
+input, select {
+  background: #181820;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+.country-code {
+  width: 80px;
+}
+
+.phone {
+  flex: 1;
+}
+
+.signup-btn {
+  background: linear-gradient(90deg, #a18aff 0%, #6f4cff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.signup-btn:hover {
+  background: linear-gradient(90deg, #6f4cff 0%, #a18aff 100%);
+}
+
+.or-divider {
+  text-align: center;
+  color: #888;
+  font-size: 13px;
+  margin: 10px 0 0 0;
+}
+
+.signup-socials {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.jwt-btn {
+  background: #181820;
+  border: none;
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  letter-spacing: 1px;
+}
+
+.jwt-btn:hover {
+  background: #2d2d3a;
+}
+
+.signup-terms {
+  text-align: center;
+  color: #888;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.signup-terms a {
+  color: #a18aff;
+  text-decoration: underline;
+}
+
+.country-code {
+  min-width: 80px;
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #888;
+  color: #000;
+}

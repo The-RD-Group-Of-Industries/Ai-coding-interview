@@ -1,0 +1,62 @@
+.code-editor-panel {
+  flex: 1;
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  box-sizing: border-box;
+  height: 100%; /* Ensures Monaco fills height */
+}
+
+.editor-header {
+  display: flex;
+  justify-content: flex-end; /* Align selectors to right */
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.selector {
+  background-color: #2c2c2c;
+  border-radius: 24px;
+  padding: 6px 14px;
+   font-family: 'DM Mono', monospace;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tag {
+  padding: 3px 6px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+    font-family: 'DM Mono', monospace;
+}
+
+.tag.js {
+  background-color: #f0db4f;
+  color: black;
+}
+
+.tag.react {
+  background-color: #61dafb;
+  color: black;
+}
+
+.editor-body {
+  flex: 1;
+  background-color: #2d2d2d;
+  border-radius: 16px;
+  overflow: hidden;      
+  position: relative;
+  height: 100%;
+}
+
+/* Ensure Monaco takes full height */
+.editor-body > div {
+  height: 100% !important;
+}
