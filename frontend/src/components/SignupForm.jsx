@@ -233,8 +233,8 @@ import axios from "axios";
 import bgImage from "../assets/bgImage.png";
 import "./SignupForm.css";
 import { useNavigate } from "react-router-dom";
+import { API_BASE_URL } from "../url";
 
-const API_BASE_URL = "https://ai-coding-interview.onrender.com";
 
 
 export default function SignupForm() {

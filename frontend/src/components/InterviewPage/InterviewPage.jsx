@@ -159,9 +159,8 @@ import axios from "axios";
 import CodeEditorPanel from "../CodeEditorPanel/CodeEditorPanel";
 import QuestionPanel from "../QuestionPanel/QuestionPanel";
 import "./InterviewPage.css";
+import { API_BASE_URL } from "../../url";
 
-
-const API_BASE_URL = "https://ai-coding-interview.onrender.com";
 
 const InterviewPage = () => {
   const { interviewId } = useParams(); 
