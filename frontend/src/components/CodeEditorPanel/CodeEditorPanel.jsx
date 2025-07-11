@@ -6,8 +6,9 @@ import './CodeEditorPanel.css';
 
 const CodeEditorPanel = () => {
   const [code, setCode] = useState('// Type your answer here!');
-  const [language, setLanguage] = useState('javascript');
-  const [framework, setFramework] = useState('React');
+  // const [language, setLanguage] = useState('javascript');
+  // const [framework, setFramework] = useState('React');
+  const language = 'javascript';
 
   return (
     <div className="code-editor-panel">

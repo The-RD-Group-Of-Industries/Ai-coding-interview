@@ -468,7 +468,7 @@ const handleOtpVerify = async (e) => {
         <div className="signup-terms">
           By creating an account, you agree to our{" "}
           <br />
-          <a href="#">Terms & Service</a>
+          <a href="https://therdgroupofindustries.in">Terms & Service</a>
         </div>
       </div>
     </div>
